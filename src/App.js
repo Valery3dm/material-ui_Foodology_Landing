@@ -1,9 +1,13 @@
+import { Box } from "@material-ui/core";
+
+import NavBar from "./components/navBar/NavBar";
+
 const App = () => (
-  <div className="App">
-    <header className="App-header">
-      Hello World!
+  <Box>
+    <header>
+      <NavBar />
     </header>
-  </div>
+  </Box>
 );
 
 export default App;
